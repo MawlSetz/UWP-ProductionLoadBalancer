@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PCC-DESKTOP40</Machine>
+    <WindowsUser>pcbsmarketing</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>06d805ab-b237-43d8-8922-050f74e8a6af</PackageIdentityName>
+    <PackageIdentityPublisher>CN=pcbsmarketing</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>C25CF1CD3B71A0CE988ADB893E90131225110F34486CDE149CE347954F08DF7B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>06d805ab-b237-43d8-8922-050f74e8a6af_1.0.0.0_neutral__mjz75kp62kb2p</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>06d805ab-b237-43d8-8922-050f74e8a6af_mjz75kp62kb2p!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>06d805ab-b237-43d8-8922-050f74e8a6af</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=pcbsmarketing</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T23:53:58.581</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\chain.png">
+      <PackagePath>images\chain.png</PackagePath>
+      <Modified>2018-10-17T21:48:20.045</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\GreyCircle.png">
+      <PackagePath>images\GreyCircle.png</PackagePath>
+      <Modified>2018-10-16T16:29:37.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\GreySquare.png">
+      <PackagePath>images\GreySquare.png</PackagePath>
+      <Modified>2018-10-16T16:29:37.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\GreyTube.png">
+      <PackagePath>images\GreyTube.png</PackagePath>
+      <Modified>2018-10-16T16:29:37.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\orangeBall.png">
+      <PackagePath>images\orangeBall.png</PackagePath>
+      <Modified>2018-10-16T16:29:37.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\SmallTile.scale-100.png">
+      <PackagePath>images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:50:34.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\SmallTile.scale-125.png">
+      <PackagePath>images\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:50:34.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\SmallTile.scale-150.png">
+      <PackagePath>images\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:50:34.524</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\SmallTile.scale-200.png">
+      <PackagePath>images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:50:34.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\SmallTile.scale-400.png">
+      <PackagePath>images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:50:34.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:12.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:12.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:12.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:12.400</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:11.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.scale-125.png">
+      <PackagePath>images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:11.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.scale-150.png">
+      <PackagePath>images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:11.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.scale-400.png">
+      <PackagePath>images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:11.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:12.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:12.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:12.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:12.079</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:12.115</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-10-15T17:46:28.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-15T17:46:28.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-15T17:46:28.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:11.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T21:51:12.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-15T17:46:28.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-15T17:46:28.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2018-10-18T00:11:37.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\js\easeljs-0.8.2.min.js">
+      <PackagePath>js\easeljs-0.8.2.min.js</PackagePath>
+      <Modified>2018-10-16T18:20:30.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2018-10-17T23:53:57.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\js\preloadjs-0.6.2.min.js">
+      <PackagePath>js\preloadjs-0.6.2.min.js</PackagePath>
+      <Modified>2018-10-16T18:20:30.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2018-10-17T23:10:44.351</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-17T23:53:58.443</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
