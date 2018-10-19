@@ -19,12 +19,13 @@ window.onload = function () {
     document.getElementById("mod-one-number-button").onclick = function (evt) {
         //create balls on screen, qty recieved from getCount()
         function createBalls(ballcount) {
-            console.log("line97 " + ballcount);
             for (var i = 0; i < ballcount; i++) {
                 var myimage = new Image(15, 15);
                 myimage.src = 'images/orangeball.png';
                 myimage.id = 'ball' + i;
                 document.getElementById("ball-container").appendChild(myimage);
+                onButtonPush();
+                console.log("made it to line 28");
             }
         }
         createBalls();
@@ -35,16 +36,33 @@ window.onload = function () {
         }
         getCount();
 
+        // call getSeconds only on button push 
+        function onButtonPush() {
+            var buttonClick = window.document.getElementById("mod-one-seconds-button");
+            console.log(buttonClick);
+           // buttonClick.addEventListener("click", getSeconds());
+            console.log("made it to line 40");
+        }
+        onButtonPush();
+
         function getSeconds() {
             var milleseconds = window.document.getElementById("secondsInput").value;
             var seconds = milleseconds * 1000;
-            createTimer(seconds);
+            console.log(seconds);
+            // createTimer(seconds);
+            transModOne();
         }
-        getSeconds();
 
+        function transModOne() {
+            var ballNumber = document.getElementById("ball1");
+            console.log(ballNumber);
+            ballNumber.classList.remove("mod-one-mill");
+            ballNumber.classList.add("tube");
+        }
         function createTimer(seconds) {
             //get timer length, apply this length to module 1 class/object/whatever
         }
+
     }
 }
 
