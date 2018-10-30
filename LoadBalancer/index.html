@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Production Load Balancer</title>
-    <meta name="description" content="Production Load Balancer">
+    <title>Overflow Visualizer</title>
+    <meta name="description" content="Overflow Visualizer">
     <meta name="author" content="MollySetzer">
 
     <link rel="stylesheet" href="css/default.css?v=1.0">
@@ -14,16 +14,20 @@
 
 <body>
     <div id="ball-container">
-        <img id="ball1" class="mod-one-mill" src="images/orangeBall.png" />
+       
     </div>
+    <div class="startDiv">
+        <button id="start" onclick="">Start</button>
+        <p>Total Ball Count: </p>
+        <input type="number" id="ballCount" value="" required>
+        <button id="mod-one-number-button">Submit</button>
+    </div>
+
     <div class="module1-container">
         <div class="controls-mod-1">
-            <p>seconds:</p>
-            <input type="number" id="secondsInput" value="seconds">
-            <button id="mod-one-seconds-button" onclick="">Start</button>
-            <p>count:</p>
-            <input type="number" id="ballCount" value="">
-            <button id="mod-one-number-button" onclick="">Start</button>
+            <p>Module 1 Seconds:</p>
+            <input type="number" class="required" id="secondsInput" value="seconds">
+            <button id="mod-one-seconds-button" onclick="">Submit</button>
         </div>
         <div class="circle">
             <img class="grey-circle" src="images/GreyCircle.png">
@@ -31,6 +35,9 @@
     </div>
     <div class="tube">
         <img class="grey-tube" src="images/GreyTube.png">
+    </div>
+    <div class="toOverflow1">
+        <img class="toOverflow1" src="images/Overflow-full2.png">
     </div>
     <div class="square">
         <img class="grey-square" src="images/GreySquare.png">
@@ -43,8 +50,6 @@
     </div>
 
     <script src="js/main.js"></script>
-    <script src="js/easeljs-0.8.2.min.js"></script>
-    <script src="js/preloadjs-0.6.2.min.js"></script>
 </body>
 
 </html>

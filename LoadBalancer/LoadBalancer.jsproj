@@ -63,6 +63,9 @@
     <Content Include="images\GreySquare.png" />
     <Content Include="images\GreyTube.png" />
     <Content Include="images\orangeBall.png" />
+    <Content Include="images\overflow-bin.png" />
+    <Content Include="images\Overflow-full2.png" />
+    <Content Include="images\returnOverflow.png" />
     <Content Include="images\SmallTile.scale-100.png" />
     <Content Include="images\SmallTile.scale-125.png" />
     <Content Include="images\SmallTile.scale-150.png" />
@@ -81,6 +84,7 @@
     <Content Include="images\Square44x44Logo.targetsize-256.png" />
     <Content Include="images\Square44x44Logo.targetsize-32.png" />
     <Content Include="images\Square44x44Logo.targetsize-48.png" />
+    <Content Include="images\toOverflow.png" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
     <Content Include="images\SplashScreen.scale-200.png" />

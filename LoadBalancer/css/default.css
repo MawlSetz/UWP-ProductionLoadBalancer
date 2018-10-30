@@ -1,13 +1,38 @@
 ﻿body {
-  /* Uncomment this to enable scrolling and zooming
   touch-action: manipulation;
-  */
   background-color: azure;
   margin-top: 10%;
+  overflow: scroll;
 }
 
 .module-one-container {
+    margin-top: 10%;
 }
+
+.startDiv {
+    margin-bottom: 10%;
+}
+
+#start {
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    background-color:orange;
+    color: white;
+    margin-left: 45%;
+}
+
+
+    #start:hover {
+        border: none;
+        background-color: grey;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        margin-left: 45%;
+        margin-bottom: 5%;
+    }
 
 #secondsInput {
     border-radius: 2px;
@@ -62,11 +87,26 @@
     position: relative;
 }
 
+
+#ball-container {
+    width: 25%;
+}
+
+.ballz {
+    position: relative;
+    float: left;
+}
+
 .tube {
     width: 18%;
     margin: auto;
 }
 
+.toOverflow1 {
+    width: 30%;
+    margin-left: 36%;
+    margin-top: -5%;
+}
 .circle {
     width: 20%;
     margin: auto;
@@ -102,7 +142,7 @@
 
 .mod-one-mill {
     margin-left: 45%;
-    margin-top: 5.5%;
+    margin-top: 0%;
     position: absolute;
     -webkit-animation: millAround 2s linear infinite;
 
@@ -110,24 +150,31 @@
 
 .mod-two-move {
     0% {
-           bottom: 20%;
+           bottom: 100%;
        }
     100% {
-           bottom: 50%;
+           bottom: 80%;
     }
 }
 
 .tube-animation {
-    margin-left: 45%;
-    -webkit-animation: MoveUpDown linear;
+    /*margin-left: 45%;
+    margin-top: 8%;*/
+    position: absolute;
+    -webkit-animation: MoveUpDown 2s linear;
+    transition: translate(145px);
+}
+
+.mod-one-mill {
+    margin-left: 30%;
 }
 
 @keyframes MoveUpDown {
     0% {
-        bottom: 50%;
+        bottom: 20%;
     } 
     100% {
-        bottom: 20%;
+        bottom: 5%;
     }
 }
 

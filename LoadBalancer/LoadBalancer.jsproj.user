@@ -3,5 +3,6 @@
   <PropertyGroup>
     <SmallTileSource>C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\chain.png</SmallTileSource>
     <AppIconSource>C:\Users\pcbsmarketing\source\repos\LoadBalancer\LoadBalancer\images\chain.png</AppIconSource>
+    <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
 </Project>

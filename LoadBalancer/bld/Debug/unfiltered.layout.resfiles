@@ -5,6 +5,9 @@ images\GreySquare.png
 images\GreyTube.png
 images\LockScreenLogo.scale-200.png
 images\orangeBall.png
+images\overflow-bin.png
+images\Overflow-full2.png
+images\returnOverflow.png
 images\SmallTile.scale-100.png
 images\SmallTile.scale-125.png
 images\SmallTile.scale-150.png
@@ -28,8 +31,8 @@ images\Square44x44Logo.targetsize-256.png
 images\Square44x44Logo.targetsize-32.png
 images\Square44x44Logo.targetsize-48.png
 images\StoreLogo.png
+images\toOverflow.png
 images\Wide310x150Logo.scale-200.png
 index.html
-js\easeljs-0.8.2.min.js
+js\jquery-min.js
 js\main.js
-js\preloadjs-0.6.2.min.js
